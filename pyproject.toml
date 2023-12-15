@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "foodrecognition"
+version = "0.1.0"
+description = ""
+authors = ["Huynguyen <nguyenmaibaohuy2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9 <=3.12"
+keras = "2.15.0"
+matplotlib = "^3.8.2"
+preprocessing = "^0.1.13"
+protobuf = "3.19.6"
+flatbuffers = "2.0.7"
+tensorflow-estimator = "2.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
